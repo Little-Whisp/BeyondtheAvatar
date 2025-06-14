@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" href="img/1.png" />
+  <title>Silviani Martis</title>
+  <link rel="stylesheet" type="text/css" href="./Style.css" />
+</head>
+
+<body>
+
+  <nav>
+    <div><a href="#What">What is Beyond the Avatar?</a></div>
+    <div><a href="#Why?">Why this game?</a></div>
+    <div><a href="#How">How to Play?</a></div>
+  </nav>
+
+  <header>Beyond the Avatar</header>
+
+  <main>
+
+    <button onclick="scrollToTop()" id="scrollToTopBtn" title="Go to top">
+      <div>
+        <img src="img/Arrow-up.png" alt="Arrow icon">
+        <span>Back to top</span>
+      </div>
+    </button>
+
+
+
+    <section id="What">
+
+      <div>
+        <h1>
+          What is Beyond the Avatar?
+        </h1>
+
+        <p>
+          In Beyond the Avatar, players step behind the bar and serve a diverse cast of
+          guests — but the real challenge isn't just serving the drinks, it's reading the people.
+          Each customer has a unique avatar, but who they really are goes beyond appearances.
+        </p>
+
+            <img src="img/Screenshot 2025-06-10 141801.png">
+
+
+
+      </div>
+
+    </section>
+
+    <section id="Why?">
+      <div>
+        <h1>
+          Why this game?
+        </h1>
+
+        <ul>
+          <li>
+            <strong>Insight:</strong>
+            Players gain personal insight into how they make decisions based on appearance, questions, and gut feeling.
+          </li>
+          <li>
+            <strong>Data Collection:</strong>
+            Every player choice is stored as research data, offering a new way to study perception in virtual spaces.
+          </li>
+          <li>
+            <strong>Reflection:</strong>
+            The game stimulates reflection on bias, digital identity, and first impressions.
+          </li>
+          <li>
+            <strong>Accessible & Fun:</strong>
+            Easy to play, fun to experience, but still carrying a deeper message.
+          </li>
+          <li>
+            <strong>Educational & Research-Oriented:</strong>
+            Offers a playful alternative to traditional surveys or video studies, making data collection more interactive
+            and natural.
+          </li>
+        </ul>
+
+      </div>
+    </section>
+
+    
+    <section id="How">
+      <div>
+        <h1>
+          How to play?
+        </h1>
+
+           <img src="img/Introduction Poster.jpg">
+
+
+      </div>
+
+
+
+
+    </section>
+
+
+
+
+    <footer>
+    </footer>
+
+    <script>
+      // Get the button
+      var scrollToTopBtn = document.getElementById("scrollToTopBtn");
+
+      // When the user scrolls down 20px from the top of the document, show the button
+      window.onscroll = function () {
+        scrollFunction();
+      };
+
+      function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          scrollToTopBtn.style.display = "block";
+        } else {
+          scrollToTopBtn.style.display = "none";
+        }
+      }
+
+      // When the user clicks on the button, scroll to the top of the document
+      function scrollToTop() {
+        document.body.scrollTop = 0; // For Safari
+        document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+      }
+    </script>
+
+  </main>
+</body>
+
+</html>
